@@ -1,0 +1,17 @@
+.nav {
+  background-color: lightgray;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav :global(.active) {
+  background-color: green;
+}
+/* use css style up there */
+/* :global(.test) { 
+  background-color: blueviolet;
+} */
